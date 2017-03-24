@@ -16,13 +16,18 @@ import java.util.Scanner;
 
 public class MainClass {
         public static void main (String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Echo or number? (e/n)\n");
+            String s = scanner.next();
 
-
-            Echo e1 = new Echo();
-     //       e1.Echo1();
-            RandomNumber rnd = new RandomNumber();
-            rnd.guess(8);
-
+            if ("e".equals(s)){
+                Echo e1 = new Echo();
+                e1.Echo1();
+            }
+            else {
+                RandomNumber rnd = new RandomNumber();
+                rnd.guess(8);
+            }
 
         }
 }

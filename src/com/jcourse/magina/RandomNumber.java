@@ -6,9 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Random;
 import java.util.Scanner;
 
-/**
- * Created by Игорь on 24.03.2017.
- */
+
 public class RandomNumber {
     public void guess (int n){ // n попыток
         Random r = new Random();
@@ -23,8 +21,12 @@ public class RandomNumber {
 
 
             System.out.println("Guess number! \n");
-            //    tr = reader.read();
-
+           /* try {
+                tr = reader.read();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+*/
             trr = scanner.nextInt ();
 
             if (trr == number) {
