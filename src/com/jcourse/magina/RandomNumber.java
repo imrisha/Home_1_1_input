@@ -34,8 +34,8 @@ public class RandomNumber {
             System.out.println("try " + i + " = " + trr);
 
             if (trr > number)
-                System.out.println("Less!\n");
-            else System.out.println("More!\n");
+                System.out.println("Less < !\n");
+            else System.out.println("More > !\n");
         }
         System.out.println("Не угадал!!! Это было " + number);
         System.exit(0);
