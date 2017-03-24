@@ -7,7 +7,7 @@ import com.jcourse.magina.Echo;
 import com.jcourse.magina.RandomNumber;
 
 import java.io.BufferedReader;
-import java.io.Console;
+//import java.io.Console;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.math.BigInteger;
